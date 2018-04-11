@@ -1,0 +1,191 @@
+ body {
+ 	margin: 0;
+ 	background-color: #EDF2F6;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ }
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	display: inline-block;
+}
+
+p {
+	display: inline-block;
+}
+
+.bottom__header {
+	background-color: #717E93;
+	height: 65px;
+	color: #fff;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 18px;
+	margin: 0;
+	margin-top: 40px;
+	padding-top: 20px;
+}
+
+ .nav__header {
+ 	font-size: 15px;
+ 	margin-bottom: 25px;
+ 	color: #67748B;
+ }
+
+ .nav__links {
+ 	display: block;
+ 	color: #A2ACBD;
+ 	font-size: 15px;
+ 	margin-bottom: 22px;
+ }
+
+ .bottom-text {
+ 	margin-left: 4%;
+ 	margin-right: 2.5%;
+ }
+
+ .lists {
+ 	padding-top: 18px;
+ 	padding-left: 25px;
+ 	border-bottom: 3px solid #2B3240;
+ 	padding-bottom: 15px;
+ }
+
+ .bottom__button {
+ 	background-color: #808B9E;
+ 	color: #fff;
+ 	font-size: 15px;
+ 	font-weight: 600;
+ 	border:none;
+ 	height: 40px;
+ }
+
+ .pencil-img {
+ 	height: 20px;
+ 	width: 20px;
+ 	margin-right: 10px;
+ }
+
+ hr {
+ 	background-color: #EFF2F5;
+ }
+
+ .section__input {
+ 	width: 80%;
+ 	height: 80px;
+ }
+
+ .article__h1 {
+ 	font-size: 16px;
+ 	margin-left: 26%;
+ 	font-weight: 400;
+ 	margin-bottom: 30px;
+ }
+
+ .user__image {
+ 	border: 2px solid black;
+ 	border-radius: 50%;
+ 	margin-left: 35%;
+ 	margin-top: 15%;
+ 	width: 70px;
+ 	height: 70px;
+ }
+
+ nav {
+ 	background-color: #374050;
+ 	width: 15%;
+ 	position: absolute;
+ 	color: #A2ACBD;
+ 	height: 1500px;
+ }
+ .main {
+ 	width: 84%;
+ 	position: relative;
+ 	margin-left: 15%;
+ }
+ .top-header {
+ 	height: 80px;
+ 	background-color: #fff;
+ }
+ h1 {
+ 	display: inline-block;
+ }
+.pt-1 {
+	width: 40%;
+	display: inline-block;
+	margin-left: 3.5%;
+}
+
+.pt-2 {
+	width: 40%;
+	display: inline-block;
+}
+
+.info-box {
+	width: 70%;
+	margin-left: 3.5%;
+	position: absolute;
+}
+
+.graphs {
+	margin-left: 3.5%;
+}
+
+.box-1 {
+	padding-left: 3.5%;
+	background-color: #fff;
+}
+
+.user {
+	border-bottom: 3px solid #2B3240;
+}
+
+.social {
+	position: relative;
+	margin-left: 75%;
+}
+
+.nav__icons {
+	height: 16px;
+	width: 16px;
+	margin-right: 8%;
+}
+
+li {
+	list-style-type: none;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+ul {
+	background-color: #fff;
+	margin:0;
+	padding-right: 40px;
+	border-radius: 5px;
+}
+
+.li__h2 {
+	font-size: 16px;
+	color: #717E93;
+	width: 24%;
+}
+
+.li__p {
+	color: #4E515D
+	font-size: 200px;
+	font-weight: 300;
+	width: 75%;
+}
+
+.user__image2 {
+	border: 2px solid black;
+ 	border-radius: 50%;
+ 	height: 40px;
+ 	width: 40px;
+}
+
+.salary {
+	color: black;
+}
