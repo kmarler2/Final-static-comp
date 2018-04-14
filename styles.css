@@ -2,6 +2,7 @@
  	margin: 0;
  	background-color: #EDF2F6;
  	font-family: 'Source Sans Pro', sans-serif;
+ 	font-weight: bold;
  }
 
 a {
@@ -32,13 +33,17 @@ p {
 	width: 100%;
 	height: 65px;
 	border-radius: 5px;
-	text-align: center;
+	padding-right: 18%;
+	font-size: 18px;
+}
+
+.social-media:hover {
+	opacity: 0.7;
 }
 
 .facebook {
 	background-color: #4053AF;
 	color: white;
-	font-size: 20px;
 	margin-bottom: 15px;
 
 }
@@ -51,13 +56,13 @@ p {
 .twitter {
 	background-color: #47A9E9;
 	color: white;
-	font-size: 20px;
 	margin-bottom: 15px;
 }
 
-.twitter-img {
-	height: 50px;
-	width: 50px;
+.social-img {
+	height: 30px;
+	width: 30px;
+	margin-right: 12%;
 }
 
 .twitter-p {
@@ -68,7 +73,6 @@ p {
 .linkedin {
 	background-color: #3581B9;
 	color: white;
-	font-size: 20px;
 	margin-bottom: 40px;
 
 }
@@ -88,6 +92,7 @@ p {
  	font-size: 15px;
  	margin-bottom: 25px;
  	color: #67748B;
+ 	margin-left: 10%;
  }
 
  .bottom-p {
@@ -100,7 +105,18 @@ p {
  	display: block;
  	color: #A2ACBD;
  	font-size: 15px;
- 	margin-bottom: 22px;
+ 	margin-bottom: 18px;
+ 	width: 100%;
+ 	font-weight: 800;
+ }
+
+ .donut {
+ 	display: inline-block;
+ }
+
+ .nav__links:hover {
+ 	color: white;
+ 	border-left: 7px solid #4799D7;
  }
 
  .bottom-text {
@@ -110,9 +126,12 @@ p {
 
  .lists {
  	padding-top: 18px;
- 	padding-left: 25px;
- 	border-bottom: 3px solid #2B3240;
+ 	border-bottom: 2px solid #2B3240;
  	padding-bottom: 15px;
+ }
+
+  .last-list {
+ 	border-bottom: 0;
  }
 
  .bottom__button {
@@ -122,6 +141,10 @@ p {
  	font-weight: 600;
  	border:none;
  	height: 40px;
+ }
+
+ .bottom__button:hover {
+ 	opacity: 0.7;
  }
 
  .pencil-img {
@@ -135,24 +158,38 @@ p {
  }
 
  .section__input {
- 	width: 80%;
- 	height: 80px;
+ 	width: 71.5%;
+ 	height: 50px;
+ 	padding-left: 3.5%;
+ 	margin:0;
+ 	border: 0;
+ 	border-top: 0;
+ }
+
+ .section__input::placeholder {
+ 	font-size: 16px;
+ 	color: #A2ACBD;
  }
 
  .article__h1 {
- 	font-size: 16px;
- 	margin-left: 26%;
+ 	font-size: 18px;
+ 	margin-left: 28%;
  	font-weight: 400;
- 	margin-bottom: 30px;
+ 	margin-bottom: 28px;
+ 	margin-top: 11px;
+ }
+
+ .header-icons {
+ 	height: 30px;
+ 	width: 30px;
  }
 
  .user__image {
- 	border: 2px solid black;
  	border-radius: 50%;
- 	margin-left: 35%;
- 	margin-top: 15%;
- 	width: 70px;
- 	height: 70px;
+ 	margin-left: 33%;
+ 	margin-top: 13%;
+ 	width: 33%;
+ 	height: 80px;
  }
 
  nav {
@@ -160,34 +197,28 @@ p {
  	width: 15%;
  	position: absolute;
  	color: #A2ACBD;
- 	height: 1700px;
+ 	height: 1900px;
  }
  .main {
  	width: 84%;
  	position: relative;
  	margin-left: 15%;
  }
- .top-header {
- 	height: 80px;
- 	background-color: #fff;
- }
- h1 {
- 	display: inline-block;
- }
+
 .pt-1 {
-	width: 48%;
+	width: 45.4%;
 	display: inline-block;
+	margin-left: 3.8%;
 }
 
 .pt-3-img {
-width: 30px;
-height: 30px;
+width: 40px;
+height: 40px;
 }
 
 .pt-2 {
-	width: 48%;
+	width: 45.4%;
 	display: inline-block;
-	margin-top: 270px;
 }
 
 .info-box {
@@ -197,17 +228,21 @@ height: 30px;
 }
 
 .graphs {
-	margin-left: 3.5%;
+	width: 100%;
+	height: 430px;
+	border-top: 2px solid #D9DFE5;
 }
 
 .box-1 {
 	padding-left: 3.5%;
 	background-color: #fff;
-	height: 220px;
+	padding-bottom: 10px;
+	border-top: 2px solid #EFF2F5;
+	width: 100%;
 }
 
 .user {
-	border-bottom: 3px solid #2B3240;
+	border-bottom: 2px solid #2B3240;
 }
 
 .social {
@@ -218,9 +253,10 @@ height: 30px;
 }
 
 .nav__icons {
-	height: 16px;
-	width: 16px;
+	height: 17px;
+	width: 17px;
 	margin-right: 8%;
+	margin-left: 10%;
 }
 
 li {
@@ -237,23 +273,25 @@ ul {
 }
 
 .li__h2 {
-	font-size: 16px;
+	font-size: 18px;
 	color: #717E93;
 	width: 24%;
+	font-weight: 800;
 }
 
 .li__p {
 	color: #4E515D
 	font-size: 200px;
 	font-weight: 300;
-	width: 75%;
+	display: inline-block;
 }
 
 .user__image2 {
-	border: 2px solid black;
+	border: 2px solid #EFF2F5;
  	border-radius: 50%;
  	height: 40px;
  	width: 40px;
+ 	display: inline-block;
 }
 
 .salary {
@@ -284,12 +322,200 @@ ul {
 	font-size: 14px;
 }
 
+.bottom-buttons:hover {
+	opacity: 0.7;
+}
+
+.top-icons {
+	height: 15px;
+	width: 15px;
+}
+
+.top-btn {
+	background-color: white;
+	border-radius: 20px;
+	height: 40px;
+	width: 40px;
+	border: 2px solid #D3DAE1;
+	margin-left: 1%;
+}
+
+.top-btn:hover {
+	opacity: 0.7;
+}
+
+.open-btn {
+	background-color: white;
+	font-size: 15px;
+	border-radius: 20px;
+	padding: 9px;
+	font-weight: 600;
+	width: 7%;
+	height: 40px;
+	margin-left: 33%;
+}
+
+.green-dot {
+	margin-right: 10%;
+}
+
+.tab-links {
+	margin-top: 55px;
+}
+
+.location-article {
+	height: 30px;
+	width: 30%;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.calendar {
+	border-right: 0;
+}
+
+.location {
+	color: #8C95A3;
+	margin-top: 10px;	
+}
+
+.location-img {
+	height: 20px;
+	width: 20px;
+	margin-right: 1%;
+}
+
+.chart-number {
+	font-size: 10px;
+	line-height: 3;
+	transform: translateY(-0.25em);
+	text-anchor: middle;
+	color: #4E515D;
+}
+
+.chart-text {
+	transform: translateY(0.25em);
+	color: #8C95A3;
+}
+
+.totals {
+	margin-right: 33%;
+	margin-left: 23%;
+	margin-top: 50px;
+	border: 2px solid #D5DCE3;
+	background-color: white;
+	border-radius: 20px;
+	padding: 7px;
+	width: 15%;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.per-day {
+	border: 2px solid #D5DCE3;
+	background-color: white;
+	border-radius: 20px;
+	padding: 7px;
+	padding-left: 3%;
+	width: 12%;
+	font-size: 18px;
+	display: inline-block;	
+
+}
+
+
+.chart-label {
+	font-size: 3px;
+	text-anchor: middle;
+	transform: translateY(0.7em);
+}
+
+.donut-chart {
+	height: 225px;
+	width: 225px;
+	display: inline-block;
+	margin-top: 35px;
+	margin-left: 2%;
+}
+
+.first-donut {
+	margin-left: 5%;
+}
+
 .bottom-icons {
 	height: 25px;
 	width: 25px;
 	margin-right: 5%;
 }
 
+.preview {
+	color: #6AA3F3;
+	margin-left: 1%;
+}
+
+.preview:hover {
+	opacity: 0.7;
+}
+
 .bottom-input-third {
 	width: 100%;
 }
+
+.tabs:hover {
+	color: black;
+	border-bottom: 2px solid #47A3F3;
+}
+
+.top-header {
+	font-size: 35px;
+	font-weight: 300;
+	color: #4E515D;
+	height: 50px;
+	margin-bottom: 0;
+	width: 102%;
+	background-color: white;
+}
+
+.colors {
+	height: 30px;
+	width: 25px;
+	border-radius: 20px;
+}
+
+
+.header-btn {
+	height: 70px;
+	width: 80px;
+	border: 0;
+	border-right: 2px solid #EFF2F5;
+}
+
+.header-btn:hover {
+	opacity: 0.7;
+}
+
+ .border {
+ 	border-left: 2px solid #EFF2F5;
+ }
+
+  .top-header {
+ 	height: 70px;
+ 	background-color: #fff;
+ }
+
+ .tabs {
+	margin-right: 3.2%;
+	color: #8C95AC;
+	font-weight: 800;
+	font-size: 18px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+ .service {
+ 	display: inline-block;
+ 	margin-top: 60px;
+ 	height: 30px;
+ 	width: 40%;
+ }
