@@ -13,7 +13,7 @@ body {
  	height: 1700px;
  }
 
-  .user__image {
+  .article__image {
  	border-radius: 50%;
  	margin-left: 33%;
  	margin-top: 13%;
@@ -21,7 +21,7 @@ body {
  	height: 80px;
  }
 
- .user {
+ .nav__article-user {
 	border-bottom: 2px solid #2B3240;
 }
 
@@ -33,7 +33,7 @@ body {
  	margin-top: 11px;
  }
 
-  .lists {
+  .nav__section {
  	padding-top: 18px;
  	border-bottom: 2px solid #2B3240;
  	padding-bottom: 15px;
@@ -43,7 +43,7 @@ h2 {
 	display: inline-block;
 }
 
- .nav__header {
+ .section__header {
  	font-size: 15px;
  	margin-bottom: 25px;
  	color: #67748B;
@@ -93,7 +93,7 @@ a {
 
 .header-btn {
 	height: 70px;
-	width: 80px;
+	width: 5%;
 	border: 0;
 	border-right: 2px solid #EFF2F5;
 }
@@ -151,7 +151,7 @@ a {
  	display: inline-block;
  	margin-top: 60px;
  	height: 30px;
- 	width: 40%;
+ 	width: 50%;
  }
 
 .top-btn {
@@ -173,9 +173,9 @@ a {
 	border-radius: 20px;
 	padding: 9px;
 	font-weight: 600;
-	width: 7%;
+	width: 100px;
 	height: 40px;
-	margin-left: 33%;
+	margin-left: 23%;
 }
 
 .top-icons {
@@ -190,7 +190,7 @@ a {
 
 .location-article {
 	height: 30px;
-	width: 30%;
+	width: 50%;
 	display: inline-block;
 	font-size: 18px;
 }
@@ -241,8 +241,8 @@ a {
 }
 
 .donut-chart {
-	height: 225px;
-	width: 225px;
+	height: 60%;
+	width: 17%;
 	display: inline-block;
 	margin-top: 35px;
 	margin-left: 2%;
@@ -286,16 +286,16 @@ a {
 }
 
 .totals {
-	margin-right: 33%;
-	margin-left: 23%;
+	margin-right: 30%;
+	margin-left: 22%;
 	margin-top: 30px;
 	border: 2px solid #D5DCE3;
 	background-color: white;
 	border-radius: 20px;
 	padding: 7px;
-	width: 15%;
-	padding-left: 28px;
-	font-size: 1.8vh;
+	width: 200px;
+	padding-left: 2%;
+	font-size: 100%;
 	display: inline-block;
 }
 
@@ -305,8 +305,8 @@ a {
 	border-radius: 20px;
 	padding: 0.5%;
 	padding-left: 3.5%;
-	width: 12%;
-	font-size: 1.8vh;
+	width: 175px;
+	font-size: 100%;
 	display: inline-block;	
 }
 
@@ -431,7 +431,7 @@ ul {
 	height: 65px;
 	border-radius: 5px;
 	padding-right: 18%;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .social-media:hover {
@@ -511,3 +511,223 @@ ul {
  	font-weight: 300;
  	color: #4E515D;
  }
+
+@media only screen and (max-width: 1250px) {
+	.tabs {
+		margin-right: 3%;
+		font-size: 15px;
+	}
+	.top-header {
+		font-size: 25px;
+	}
+	.open-btn {
+		margin-left: 15%;
+	}
+	.preview {
+		width: 300px;
+	}
+	.totals {
+		margin-right: 20%;
+	}
+	.pt-1 {
+		width: 45%;
+	}
+	.pt-2 {
+		width: 45%;
+	}
+	.article__image {
+		width: 50%;
+		margin-left: 25%;
+	}
+	.article__h1 {
+		margin-left: 20%;
+		font-size: 15px;
+	}
+	.bottom-input {
+		width: 50%;
+	}
+	.bottom-buttons {
+		width: 30%;
+	}
+	.nav__links {
+		font-size: 12px;
+	}
+	.bottom-input-third {
+		width: 100%;
+	}
+	.social-media {
+		font-size: 12px;
+		padding-right: 10%;
+	}
+	.header-btn {
+		width: 8%;
+	}
+	.section__input {
+		width: 61%;
+	}
+}
+@media only screen and (max-width: 980px) {
+	nav, .border, .middle, .calendar {
+		display: none;
+	}
+	.main {
+		width: 100%;
+		margin-left: 0;
+	}
+	.box-1 {
+		padding-left: 0;
+	}
+	.social {
+		width: 100%;
+		margin-top: 1000px;
+		float: left;
+		margin-left: 10px;
+	}
+
+	.social-img {
+		margin-right: 10px;
+	}
+
+	.box-1 {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.open-btn {
+		margin-left: 0px;
+		font-size: 10px;
+	}
+	.service {
+		font-size: 25px;
+	}
+	.location {
+		font-size: 12px;
+	}
+	.preview {
+		font-size: 12px;
+	}
+	.tabs {
+		font-size: 10px;
+	}
+	.donut-chart {
+		width: 28%;
+		height: 100px;
+	}
+	.totals {
+		display: none;
+	}
+	.per-day {
+		display: none;
+	}
+	.pt-1, .pt-2, .pt-3-img {
+		display: none; 
+	}
+	.bar-graph {
+		height: 200px;
+		width: 70%;
+		margin-right: 15%;
+	}
+	.bottom__header {
+		width: 93vw;
+	}
+
+	ul {
+		width: 83.5vw;
+	}
+
+	.social-media {
+		width: 93vw;
+		margin-left: 3%;
+	}
+	.bottom-p, .bottom-links, .bottom-input {
+		margin-left: 8%;
+	}
+	.bottom-input-third {
+		width: 79.5vw;
+	}
+	.donut {
+		height: 200px;
+		width: 200px;
+	}
+	.facebook {
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.totals {
+		margin-right: 5%;
+		width: 15%;
+		font-size: 10px;
+	}
+	.per-day {
+		width: 15%;
+		font-size: 10px;
+	}
+	.bar-graph {
+		display: block;
+	}
+	.bottom__header {
+		width: 96vw;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.donut {
+		height: 150px;
+		width: 150px;
+	}
+
+	.facebook {
+		margin-top: 500px;
+	}
+	.li__h2 {
+		margin-right: 100%;
+	}
+	.box-1 {
+		padding-left: 3%;
+	}
+	.top-header {
+		width: 120vw;
+	}
+
+	.box-1 {
+		width: 115vw;
+	}
+
+	.graphs {
+		width: 100vw;
+		margin-right: 5vw;
+	}
+	.donut-chart {
+		margin-right: 1%;
+	}
+	.bar-graph {
+		width: 100vw;
+		margin-left: 100px;
+	}
+	.service {
+		width: 100%;
+		font-size: 20px;
+	}
+	.top-btn {
+		height: 40px;
+		width: 40px;
+		color: transparent;
+	}
+	.header-btn {
+		width: 70px;
+	}
+	ul {
+		width: 80vw;
+	}
+
+	.bottom__header {
+		width: 100vw;
+	}
+	.preview {
+		font-size: 10px;
+	}
+	.tabs {
+		font-size: 8px;
+	}
+}
