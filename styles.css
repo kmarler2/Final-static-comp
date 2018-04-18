@@ -290,12 +290,11 @@ a {
 	border: 2px solid #D5DCE3;
 	display: inline-block;
 	font-size: 100%;
-	margin-left: 22%;
-	margin-right: 30%;
+	margin-left: 25%;
+	margin-right: 36.5%;
 	margin-top: 30px;
-	padding-left: 2%;
 	padding: 7px;
-	width: 200px;
+	width: 185px;
 }
 
 .per-day {
@@ -306,7 +305,7 @@ a {
 	font-size: 100%;
 	padding-left: 3.5%;
 	padding: 0.5%;
-	width: 175px;
+	width: 125px;
 }
 
  hr {
@@ -701,7 +700,11 @@ ul {
 	}
 
 	.bottom__header {
-		width: 96vw;
+		width: 93vw;
+	}
+
+	ul {
+		width: 80.5vw;
 	}
 }
 @media only screen and (max-width: 575px) {
@@ -731,8 +734,8 @@ ul {
 	}
 
 	.graphs {
-		margin-right: 5vw;
 		width: 100vw;
+
 	}
 
 	.donut-chart {
@@ -740,8 +743,8 @@ ul {
 	}
 
 	.bar-graph {
-		margin-right: 0px;
-		width: 100vw;
+		width: 75vw;
+		margin-right: 12%;
 	}
 
 	.service {
@@ -762,11 +765,11 @@ ul {
 	}
 
 	ul {
-		width: 74.5vw;
+		width: 76.5vw;
 	}
 
 	.bottom__header {
-		width: 94vw;
+		width: 91vw;
 	}
 
 	.preview {
@@ -778,6 +781,23 @@ ul {
 	}
 
 	.first-donut {
-		margin-left: 0;
+		margin-left: 7%;
+	}
+
+	.social-media {
+		width: 87vw;
+	}
+
+	.location-article {
+		margin-left: 4%;
+	}
+	.top-btn {
+		height: 35px;
+		width: 35px;
+	}
+@media only screen and (max-width: 319px) {
+	body {
+		display: none;
+		background-color: chartreuse;
 	}
 }
