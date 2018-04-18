@@ -579,7 +579,7 @@ ul {
 	}
 	.social {
 		width: 100%;
-		margin-top: 1000px;
+		margin-top: 950px;
 		float: left;
 		margin-left: 10px;
 	}
@@ -623,8 +623,8 @@ ul {
 	}
 	.bar-graph {
 		height: 200px;
-		width: 70%;
-		margin-right: 15%;
+		width: 60%;
+		margin-right: 20%;
 	}
 	.bottom__header {
 		width: 93vw;
@@ -673,12 +673,12 @@ ul {
 
 @media only screen and (max-width: 575px) {
 	.donut {
-		height: 150px;
-		width: 150px;
+		height: 120px;
+		width: 120px;
 	}
 
 	.facebook {
-		margin-top: 500px;
+		margin-top: 575px;
 	}
 	.li__h2 {
 		margin-right: 100%;
@@ -687,11 +687,11 @@ ul {
 		padding-left: 3%;
 	}
 	.top-header {
-		width: 120vw;
+		width: 105vw;
 	}
 
 	.box-1 {
-		width: 115vw;
+		width: 100vw;
 	}
 
 	.graphs {
@@ -703,11 +703,13 @@ ul {
 	}
 	.bar-graph {
 		width: 100vw;
-		margin-left: 100px;
+		margin-right: 0px;
 	}
 	.service {
 		width: 100%;
-		font-size: 20px;
+		font-size: 25px;
+		margin-top: 40px;
+		margin-bottom: 25px;
 	}
 	.top-btn {
 		height: 40px;
@@ -718,16 +720,19 @@ ul {
 		width: 70px;
 	}
 	ul {
-		width: 80vw;
+		width: 74.5vw;
 	}
 
 	.bottom__header {
-		width: 100vw;
+		width: 94vw;
 	}
 	.preview {
 		font-size: 10px;
 	}
 	.tabs {
 		font-size: 8px;
+	}
+	.first-donut {
+		margin-left: 0;
 	}
 }
